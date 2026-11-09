@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table class="dashboard" width="100%">
+    <tr>
+      <td colspan="2">
+        <h2>Dashboard Sistem Informasi</h2>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="pegawai.php" target="konten">Pegawai</a></li>
+          <li><a href="barang.php" target="konten">Barang</a></li>
+          <li><a href="transaksi.php" target="konten">Transaksi</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </td>
+      <td class="area-konten">
+        <iframe name="konten" srcdoc="
+          <style>
+            body { margin:0; padding:30px; font-family:'Segoe UI',Arial,sans-serif; background:#f0f2f5; color:#333; }
+            .kartu { background:#fff; border-radius:10px; padding:25px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+            h3 { color:#4c4eaf; margin:0 0 10px; }
+            p { line-height:1.6; }
+          </style>
+          <div class='kartu'>
+            <h3>Selamat Datang!</h3>
+            <p>Ini adalah sistem informasi berbasis web.</p>
+            <p>Gunakan menu di sebelah kiri untuk navigasi.</p>
+          </div>
+        "></iframe>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        &copy; Raya All right reserved 2026
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
